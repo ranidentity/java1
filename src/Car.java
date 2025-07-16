@@ -1,17 +1,15 @@
 public class Car {
-    String make = "Ford";
-    String model = "Mustang";
-    int year = 2025;
-    double price = 5000.00;
-    boolean isRunning = false;
+    String model;
+    String color;
+
+    Car(){
+    }
 
     void Start(){
-        isRunning = true;
         System.out.println("Engine started");
     }
 
     void stop(){
-        isRunning = false;
         System.out.println("Engine stopped");
     }
     void drive(){
